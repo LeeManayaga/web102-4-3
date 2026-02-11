@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+.read-the-docs {
+  color: #888;
+}
+
+.discover-button {
+
+  color: white;
+  background-color: rgb(103, 103, 103);
+}
+
+.cat-card {
+  max-width: 600px;        /* responsive cap */
+  width: 100%;
+  margin: 1rem auto;       /* center horizontally */
+  padding: 12px;
+  border-radius: 12px;
+  background: #ced8b9;
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.08);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.cat-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.cat-attribute {
+  margin-left: 6px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: 2px solid #ddd;
+  background: #bdbbbb;
+  cursor: pointer;
+}
+
+.cat-attribute.banned {
+  background: #e3a1b7;
+}
