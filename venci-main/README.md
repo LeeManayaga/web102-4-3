@@ -1,6 +1,6 @@
 # Web Development Project 4 - *Vencivinci*
 
-Submitted by: **Huyen Huynh**
+Submitted by: 
 
 This web app: **allows users to explore different cat breeds. If they know the breed or the breed is repeated, they can add them to the ban list and explore the new cat breed.**
 
